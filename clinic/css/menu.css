@@ -8,15 +8,14 @@ nav{
  	padding-bottom: 0px;
  }
   nav a{
-  	text-decoration: none;
-  	padding: 0px 0px 0px 3px;
-  	color: white;
-  	font-family: "New Times Romans", Serif;
+  	 font-size: 15px;
+  color: #2b96cc;
+  font-weight: bold;
   	text-align: center;
 
   }
   nav a:hover{
-  	color: #66FF00;
+  	color:#2b96cc;
   }
   nav ul li{
   	float: left;

@@ -1,9 +1,42 @@
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+img{
+	 
+	width: 650px;
+    height: 600px;  
+}
+.ma{
+	font-size: 25px;
+  color: #2b96cc;
+  font-weight: bold;
+}
+.panel-title{
+	font-size: 25px;
+  color: #2b96cc;
+  font-weight: bold;
+}
+#img2{
+	 
+	width: 650px;
+    height: 325px;  
+}
+ nav a{
+  	font-size: 15px;
+  color: #2b96cc;
+  font-weight: bold;
+  }
+  nav a:hover{
+  	color: #66FF00;
+  }
 
-
-
+h1,h2,h3,h4,h5{
+    font-family: 'Montserrat', sans-serif;
+}
+.top-slider .carousel-indicators{bottom: 0}
+.top-slider .carousel-indicators li{border:1px solid #000;}
+.top-slider .carousel-indicators .active{background:#000;}
 #wrapper{
 	margin: 0 auto;
-	background: white;
+	background: #2b96cc;
 	width: 1200px;
 	height: 1000px;
 	box-shadow: 5px 10px 10px 10px gray;
@@ -12,7 +45,8 @@
  	margin-bottom: 5px;
  	padding-bottom: 3px;
  	width: 1200px;
- 	height: 150px;
+ 	height: 50px;
+ 	animation: shape-margin: 
  	background: #7BB661;
  	
  }
@@ -20,33 +54,69 @@
  	margin-top: 20px;
  	width: 1200px;
  	height: 50px;
- 	background: black;
+ 	background: #555555;
  }
  #Content{
+ 	background: #2b96cc;
  	width: 1200px;
  	height: 650px; 
  }
  #RightContent{
  	float: right;
- 	padding: 10px;
+ 	
+ 	background: #7bb661;
  	width: 480px;
  	border: thin solid gray;
  	height: 600px;
  }
- #LeftContent{
- 	float: left;
- 	padding: 5px;
- 	width: 650px;
- 	border: dotted;
+ #RegRightContent{
+ 	float: right;
+ 	overflow: scroll;
+ 	background: #ffffff;
+ 	width: 480px;
+ 	border: thin solid gray;
  	height: 600px;
 
  }
+#RegLeftContent{
+ 	background: #ffffff;
+ 	float: left;
+ 	overflow: scroll;
+ 	width: 625px;
+ 	height: 600px; 
+
+ }
+ #LeftContent{
+ 	background: #ffffff;
+ 	float: left;
+ 	
+ 	width: 650px;
+ 	
+ 	height: 600px;
+
+ }
+ .foot{
+ 	background: #7bb661;
+ }
+ li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li {
+    float: left;
+}
  #footer{
  	clear: both;
- 	background: #4C2F27;
+ 	background:  #7bb661;
+ 	margin-top: 30px;
  	font-family:Tahoma, "Century Gothic", "Times New Roman", serif;
  	font-size: 1em;
- 	color: white;
+ 	 
+ 	
+ 	color: #2b96cc;
  	height: 50px;
  	text-align: center;
  }
@@ -76,7 +146,7 @@ Last change	: 2015/03/27
 /*=== 1. General Structure ===*/
 html,
 body {
-  background: #7bb661;
+  background: #2b96cc;
   padding: 10px;
   font-family: 'Varela Round';
 }
@@ -85,6 +155,11 @@ a {
   color: #ffffff;
   transition: all ease-in-out 200ms;
 }
+.panel-body{
+	background:#ffffff;
+	padding-left: 50px; 
+}
+
 p{
 	color:#333333;
 }

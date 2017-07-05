@@ -20,8 +20,8 @@
 <div id="NavBar">
 	
 	<ul>
-<li><a class="nav-text" href="#">HOME</a></li>
-<li><a class="nav-text" href="#">REGISTRATION</a></li>
+<li><a class="nav-text" href="home.php">HOME</a></li>
+<li><a class="nav-text" href="Reg.php">REGISTRATION</a></li>
 <li><a class="nav-text" href="#">APPOINTMENT</a></li>
 <li><a class="nav-text" href="#">VIEW PATIENT </a></li>
 <li><a class="nav-text" href="#">INVENTORY</a></li>
